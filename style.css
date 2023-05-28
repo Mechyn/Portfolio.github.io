@@ -1,0 +1,63 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin: 0px;
+    max-width:900px;
+    margin: 0 auto;
+    font-size: 16px;
+    color:black;
+}
+
+nav {
+     font-family: 'Times New Roman', Times, serif;
+     list-style-type:none;
+     display:flex;
+     padding: 0px;
+     align-items:center;
+     margin:0px;
+     margin-left:auto;
+    
+}
+
+nav li{
+    display:block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav li a{
+    color:black;
+}
+
+:root{
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --border-radius: 12px;
+}
+
+#skills{
+  display: inline;
+  margin:0;
+  
+}
+
+i{
+    font-size:50px;
+}
+
+.devicon-nodejs-plain-wordmark{
+    font-size: 80px;
+}
+
+.devicon-git-plain-wordmark{
+    font-size:80px;
+}
+
